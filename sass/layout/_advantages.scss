@@ -1,0 +1,35 @@
+.svg-advantages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: var(--command-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.our-advantages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.list-advantages:not(:last-child) {
+    margin-right: 30px;
+}
+.heading-advantages{
+    width: 270px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+.paragraph-advantages{
+    margin-top: 10px;
+    width: 270px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
